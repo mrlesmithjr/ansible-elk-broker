@@ -23,6 +23,7 @@ elk-broker-3
 
 Role Variables
 --------------
+
 #####group_vars/elk-nodes
 ````
 ---
@@ -38,7 +39,6 @@ redis_allow_remote_connections: true
 es_data_node: false
 es_master_node: true
 ````
-
 
 Dependencies
 ------------
