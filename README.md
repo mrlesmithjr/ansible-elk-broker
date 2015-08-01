@@ -44,6 +44,7 @@ Dependencies
 ------------
 
 ````
+mrlesmithjr.ntp
 mrlesmithjr.rsyslog
 mrlesmithjr.snmpd
 mrlesmithjr.timezone
