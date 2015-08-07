@@ -48,6 +48,7 @@ mrlesmithjr.ntp
 mrlesmithjr.rsyslog
 mrlesmithjr.snmpd
 mrlesmithjr.timezone
+mrlesmithjr.rabbitmq
 mrlesmithjr.redis
 mrlesmithjr.elasticsearch
 mrlesmithjr.elk-kibana
