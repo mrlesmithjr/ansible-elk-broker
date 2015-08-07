@@ -138,7 +138,7 @@ dependencies:
   - { role: mrlesmithjr.rsyslog }
   - { role: mrlesmithjr.snmpd }
   - { role: mrlesmithjr.timezone }
-  - { role: mrlesmithjr.redis, when: enable_redis }
-  - { role: mrlesmithjr.rabbitmq, when: enable_rabbitmq }
+  - { role: mrlesmithjr.redis, when: use_redis }
+  - { role: mrlesmithjr.rabbitmq, when: use_rabbitmq }
   - { role: mrlesmithjr.elasticsearch }
   - { role: mrlesmithjr.elk-kibana }

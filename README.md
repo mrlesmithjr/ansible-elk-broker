@@ -24,6 +24,11 @@ elk-broker-3
 Role Variables
 --------------
 
+````
+use_redis: true  #defines if redis is to be used for caching
+use_rabbitmq: false  #defines if rabbitmq is to be used for caching
+````
+
 #####group_vars/elk-nodes
 ````
 ---
@@ -48,8 +53,8 @@ mrlesmithjr.ntp
 mrlesmithjr.rsyslog
 mrlesmithjr.snmpd
 mrlesmithjr.timezone
-mrlesmithjr.rabbitmq
-mrlesmithjr.redis
+mrlesmithjr.rabbitmq, when: use_rabbitmq
+mrlesmithjr.redis, when: use_redis
 mrlesmithjr.elasticsearch
 mrlesmithjr.elk-kibana
 ````
