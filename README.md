@@ -66,7 +66,15 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: elk-broker-nodes
       roles:
-         - { role: mrlesmithjr.elk-broker }
+        - mrlesmithjr.elk-broker
+        - { role: mrlesmithjr.ntp }
+        - { role: mrlesmithjr.rsyslog }
+        - { role: mrlesmithjr.snmpd }
+        - { role: mrlesmithjr.timezone }
+        - { role: mrlesmithjr.redis, when: use_redis }
+        - { role: mrlesmithjr.rabbitmq, when: use_rabbitmq }
+        - { role: mrlesmithjr.elasticsearch }
+        - { role: mrlesmithjr.elk-kibana }
 
 License
 -------
