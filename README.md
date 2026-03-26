@@ -1,4 +1,7 @@
-Role Name
+> [!CAUTION]
+> **This project is archived and no longer maintained.**
+> Archived: 2026-03-26
+> Reason: Legacy ELK architecture; superseded by modern observability stacksRole Name
 =========
 
 Installs ELK Stack Role (ELK-Broker)
